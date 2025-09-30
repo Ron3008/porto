@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <!-- Link CSS file -->
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home">
+    <div class="home-container">
+      <!-- Left text -->
+      <div class="home-text">
+        <h3>Hello, I'm</h3>
+        <h1>Ezekiel <span class="highlight">Aaron</span> Setiawan</h1>
+        <p>I’m a computer science student passionate about technology, from web development to AI projects, with a focus on creating simple and impactful solutions.</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/code_3008" target="_blank">
+            <img src="image/icon/instagram.png" alt="Instagram">
+          </a>
+          <a href="https://wa.me/6287720730401" target="_blank">
+            <img src="image/icon/whatsapp.png" alt="WhatsApp">
+          </a>
+          <a href="https://www.linkedin.com/in/aaron-s-156b43377" target="_blank">
+            <img src="image/icon/linkedin.png" alt="LinkedIn">
+          </a>
+          <a href="mailto:code30081960@gmail.com" target="_blank">
+            <img src="image\icon\email.png" alt="Email">
+          </a>
+        </div>
+      </div>
+      <!-- Right image -->
+      <div class="home-image">
+        <img src="image\Me-removebg-preview.png" alt="My photo">
+      </div>
+    </div>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about-container">
+      <!-- Left Side -->
+      <div class="about-left">
+        <h2>About Me</h2>
+        <p>
+          Halo, saya Ezekiel Aaron Setiawan. Saya mahasiswa ilmu komputer yang memiliki minat di bidang IT,
+          web development, dan artificial intelligence.
+          Selama kuliah saya sudah mengerjakan beberapa project, seperti web aplikasi,
+          prediksi AQI dengan AI, dan klasifikasi email spam.
+          Dari project ini saya banyak belajar menghubungkan teori dengan praktik,
+          sekaligus mengasah kemampuan teknis dan problem solving.
+        </p>
+        <div class="education-wrapper">
+          <div class="education-card">
+            <button class="nav-btn prev" onclick="prevEdu()">&#10094;</button>
+        
+            <div class="edu-content">
+              <img src="image/icon/binus.png" alt="Binus Logo" class="edu-logo">
+              <div class="edu-text">
+                <h3>Binus University</h3>
+                <p>Computer Science major</p>
+              </div>
+            </div>
+        
+            <button class="nav-btn next" onclick="nextEdu()">&#10095;</button>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Right Side -->
+      <div class="about-right">
+        <h2>Languages I’ve Used</h2>
+        <div class="languages-grid">
+          <div class="language-card">
+            <img src="image\icon\C.png" alt="C">
+            <span>C</span>
+          </div>
+          <div class="language-card">
+            <img src="image\icon\C++.png" alt="C++">
+            <span>C++</span>
+          </div>
+          <div class="language-card">
+            <img src="image\icon\python.png" alt="Python">
+            <span>Python</span>
+          </div>
+          <div class="language-card">
+            <img src="image\icon\HTML.png" alt="HTML">
+            <span>HTML</span>
+          </div>
+          <div class="language-card">
+            <img src="image\icon\css.png" alt="CSS">
+            <span>CSS</span>
+          </div>
+          <div class="language-card">
+            <img src="image\icon\js.png" alt="JavaScript">
+            <span>JavaScript</span>
+          </div>
+          <div class="language-card">
+            <img src="image/icon/java.png" alt="Java">
+            <span>Java</span>
+          </div>
+          <div class="language-card">
+            <img src="image\icon\MySQL.png" alt="mySQL">
+            <span>mySQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="image/Cateringz/Nav + desc.png" alt="Project 1">
+        <h3>Cateringz Web</h3>
+        <p>Cateringz is my web project. Cateringz is a web where user can order, see our menus and even the testimonies for our products.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="image/AQI/Screenshot 2025-09-27 215704.png" alt="Project 2">
+        <h3>AQI Predictor</h3>
+        <p>This is an AI project where we could predict the AQI by inputting the parameters. Users could also check or predict the AQI of a country.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="image/Spam detection/Screenshot 2025-09-27 222548.png" alt="Project 3">
+        <h3>Spam e-mail classification</h3>
+        <p>This project is to tell if the e-mail you're getting is a spam or not. User could input a text or a file (.pdf, .txt or .word) as an input.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="image/MedicAI/Screenshot 2025-09-29 154411.png" alt="Project 4">
+        <h3>MedicAI</h3>
+        <p>MedicAI is a healthcare project that helps users analyze symptoms and get basic insights about their health conditions.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
